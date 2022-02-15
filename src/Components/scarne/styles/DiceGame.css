@@ -1,0 +1,22 @@
+.dice-game-wrapper {
+    background: url("../../../Resources/Images/arcade6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50vw;
+    padding-top: 1.2vw;
+    padding-bottom: 0.5vw;
+}
+
+.dice-game-wrapper > h1 {
+    font-family: "ka1";
+    color:darkviolet;
+    margin-top:3.5vw;
+    font-size: 1.8vw;
+}
+
+/* 
+Arcade
+Arcade-Classic
+1982
+ka1
+*/

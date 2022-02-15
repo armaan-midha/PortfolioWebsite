@@ -1,0 +1,29 @@
+.dice-total-score-wrapper {
+    display: flex;
+    justify-content:center;
+    padding:2vw;
+    margin-bottom: 2.5vw;
+}
+
+.dice-total-score-text-wrapper {
+    /* background-color: darkorange; */
+    /* border: 1px solid #eee; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    padding: 0.3vw;
+    width:20%;
+    margin-left:1vw;
+    padding: 0.5vw 0;
+    position:relative;
+    bottom: 8vw;
+    right: 4.5vw;
+}
+
+.dice-total-score-text-wrapper p {
+    font-family: "GamePlayed-vYL7";
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.dice-total-score-text-wrapper:first-child {
+    margin-left:9vw;
+}

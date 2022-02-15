@@ -1,0 +1,65 @@
+.dice-current-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+    margin-top: 2.5vw;
+    padding-bottom: 2vw;
+}
+
+#dice-current-dice-face {
+    width:50px;
+    height: 50px;
+}
+
+.dice-current-CTAs-wrapper {
+    display: flex;
+}
+
+#dice-current-player-turn {
+    font-family: "GamePlayed-vYL7";
+    color: #ff9526;
+    margin-top: 0vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.5vw;
+}
+
+.dice-current-score {
+    font-family: "PublicPixel-0W6DP";
+    font-size: 1.1vw;
+    color:rgb(218, 18, 111);
+    margin-top: 1.5vw;
+}
+
+.dice-current-btn {
+    background: #EF4423;
+    border-bottom: 3px inset rgba(0, 0, 0, 0.5);
+    border-left: 3px inset rgba(0, 0, 0, 0.5);
+    border-right: 3px inset rgba(255, 255, 255, 0.5);
+    border-top: 3px inset rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6vw;
+    margin: 0.5vw 1.6rem;
+    margin-top: 1.5vw;
+    font-family: "GamePlayed-vYL7";
+    padding: 0.5rem;
+    width: auto;
+  }
+
+  .dice-current-btn:focus, .dice-current-btn:hover {
+    background: darkred;
+  }
+  
+  .dice-current-btn.dice-current-primary {
+    background: #881400;
+  }
+  .dice-current-btn.dice-current-primary {
+    background: #4FAF44;
+  }
+  .dice-current-btn.dice-current-primary:focus, .dice-current-btn.dice-current-primary:hover {
+    background: darkgreen;
+  }
