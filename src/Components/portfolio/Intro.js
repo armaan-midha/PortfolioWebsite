@@ -1,6 +1,6 @@
 import React from 'react';
 import guyCoding from "../../Resources/Images/guyCoding.png";
-import profileImage from "../../Resources/Images/photo.JPG";
+import profileImage from "../../Resources/Images/profilePhoto.jpg";
 import ReactPlayer from 'react-player'
 import { WhatsAppOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
@@ -18,7 +18,9 @@ function Intro() {
                 <section className="portfolio-intro-card-content-wrapper">
                     <img src={profileImage}/>
                     <h2>Armaan Midha</h2>
-                    <p>I am a third year student pursuing B.Tech. in Computer Science and Engineering major at LPU. I do problem solving (Data Structures and Algorithms). I practice at HackerRank 4 🌟 using Java. I am well versed with the computer fundamentals like OOPs, Operating system and Database Management System.  I have built few projects in web development using HTML, CSS, JavaScript, React and PHP.  I am highly interested and open to interview for the Software Engineer and SDE roles.</p>
+                    <p>I am a professional web developer based in Bangalore with a strong foundation in Computer Science and Engineering. I have a Bachelor's degree in Computer Science and Engineering. As a passionate problem solver, I excel in Data Structures and Algorithms, and I have honed my skills through extensive practice on HackerRank, achieving a 4-star rating using Java.</p>
+                    <p>I have hands-on experience in building projects using a variety of web development technologies, including <b>React and Ruby on Rails</b></p>
+                    <p>I am actively seeking new opportunities in Software Engineering and SDE roles, where I can contribute my skills and continue to grow in a challenging environment.</p>
                     <div className="resume-CTA"><Link className="resume-link" to="resume">Resume</Link></div>
                 </section>
             </section>
@@ -34,7 +36,7 @@ function Intro() {
         return (
             <section className="portfolio-intro-body-wrapper">
                 {getIntroCard()}
-                {getIntroVideo()}
+                {/* {getIntroVideo()} */}
             </section>
         )
     }

@@ -19,7 +19,3 @@ function Body() {
 }
 
 export default Body;
-
-// <div id="Intro">
-// <Intro />
-// </div>

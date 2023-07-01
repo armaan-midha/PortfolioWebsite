@@ -8,7 +8,7 @@ function About() {
         return (
             <section className="portfolio-about-content-wrapper">
                 <h2>All about this portfolio website</h2>
-                <p>This website provides my basic information and also represent the projects I have made in React. Different ways are used to represent data and projects in this website, be it react player, react slick or ant designs. I have made this website by dividing my website to different components and designing them individually and then combining them to the main component. DIfferent concepts of Javascript and React were used for implementation of this website. </p>
+                <p>Welcome! Check out my portfolio website. I'm actively seeking SDE and Web Development roles. Reach out to me via the mentioned platforms, and explore my projects on GitHub. Looking forward to connecting with you. Thanks for visiting!</p>
             </section>
         )
     }

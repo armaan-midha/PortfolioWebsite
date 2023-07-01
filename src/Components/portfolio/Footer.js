@@ -18,7 +18,7 @@ function Footer() {
             <section className="portfolio-footer-content-wrapper">
                 <section className="portfolio-footer-message-wrapper">
                     <h1>Let's Talk</h1>
-                    <p>Hi! I Hope you liked my portfolio website. I am open for SDE and Web Development roles, feel free to contact me on any of the mentioned platforms. You can find my other projects in my github. I hope to hear from you soon and Thanks for stopping by.<br/><a href="tel:+91-9855191119">Contact me</a></p>
+                    <p>Welcome! Check out my portfolio website. I'm actively seeking SDE and Web Development roles. Reach out to me via the mentioned platforms, and explore my projects on GitHub. Looking forward to connecting with you. Thanks for visiting!<br/><a href="tel:+91-9855191119">Contact me</a></p>
                 </section>
                     <section className="portfolio-intro-card-social-wrapper">
                         <LinkedinFilled style={{fontSize:"30px", color:"#F9F3F3"}} onClick={() => window.open("https://www.linkedin.com/in/armaan-midha/", "_blank")} />

@@ -4,8 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "./styles/Achivement.css";
 import "slick-carousel/slick/slick-theme.css";
 import c1 from "../../Resources/Images/c1.jpg"
-import c2 from "../../Resources/Images/c2.jpg"
-import c3 from "../../Resources/Images/c3.jpg"
+import c2 from "../../Resources/Images/c2.png"
 
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -56,11 +55,11 @@ function Achivement() {
       <h1>Certifications & Achivements</h1>
       <Slider {...settings}>
             {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
+            {getCarousalCard(c2,"Skill Assesment Certificate","I have passed the skill assesment test of problem solving on hackerrank")}
             {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
+            {getCarousalCard(c2,"Skill Assesment Certificate","I have passed the skill assesment test of problem solving on hackerrank")}
             {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
-            {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
-            {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
-            {getCarousalCard(c1,"Project Completion Certificate","During my summer internship I created an E-commerece website using Laravel and SQL")}
+            {getCarousalCard(c2,"Skill Assesment Certificate","I have passed the skill assesment test of problem solving on hackerrank")}
             
             
       </Slider>

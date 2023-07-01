@@ -43,7 +43,6 @@ function DiceCurrent(props) {
         }
     }
 
-    //0-1 * 10 = 0-10 % 6 => (0-5) +1 = 1-6
     const updateCurrentRoll = () => {
         let out = 1 + (Math.round(Math.random() * 10) % 6);
         setCurrentRoll(out);
@@ -102,7 +101,6 @@ function DiceCurrent(props) {
         {getCurrentRoll()}
         {getDiceCurrentCTAs()}
         {getCurrentScore()}
-        {/* <img src={["dice"+currentRoll]}  /> */}
     </div>
 }
 

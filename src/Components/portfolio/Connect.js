@@ -7,7 +7,7 @@ function Connect() {
         if (window.innerWidth > 660) {
             return (
                 <section>
-                    <img src={WebConnect} usemap="#image-map" />
+                    <img className="connect-image" src={WebConnect} usemap="#image-map" />
 
                     <map name="image-map">
                         <area
@@ -38,7 +38,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://mail.google.com/mail/u/?authuser=armaanmidha8@gmail.com"
+                            href="mailto:armaanmidha8@gmail.com?"
                             coords="305,81,399,157"
                             shape="rect"
                         ></area>
@@ -54,15 +54,7 @@ function Connect() {
                             target=""
                             alt=""
                             title=""
-                            href=""
-                            coords="420,165,608,355"
-                            shape="rect"
-                        ></area>
-                        <area
-                            target=""
-                            alt=""
-                            title=""
-                            href=""
+                            href="tel:985-519-1119"
                             coords="420,165,608,355"
                             shape="rect"
                         ></area>
@@ -78,7 +70,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href="https://mail.google.com/mail/u/?authuser=armaanmidha8@gmail.com"
+                            href="mailto:armaanmidha8@gmail.com?"
                             coords="652,332,804,449"
                             shape="rect"
                         ></area>
@@ -102,7 +94,7 @@ function Connect() {
                             target="_blank"
                             alt=""
                             title=""
-                            href=""
+                            href="tel:985-519-1119"
                             coords="994,318,1130,449"
                             shape="rect"
                         ></area>
@@ -123,7 +115,7 @@ function Connect() {
                 <img src={MobileConnect} usemap="#image-map" />
                 <map name="image-map">
                     <area target="_blank" alt="" title="" href="https://www.facebook.com/amidha12" coords="25,22,14" shape="circle"></area>
-                    <area target="_blank" alt="" title="" href="https://mail.google.com/mail/u/?authuser=armaanmidha8@gmail.com" coords="72,18,100,40" shape="rect"></area>
+                    <area target="_blank" alt="" title="" href="mailto:armaanmidha8@gmail.com?" coords="72,18,100,40" shape="rect"></area>
                     <area target="_blank" alt="" title="" href="https://wa.me/919855191119" coords="48,56,18" shape="circle"></area>
                     <area target="_blank" alt="" title="" href="https://github.com/armaan-midha" coords="21,98,14" shape="circle"></area>
                     <area target="_blank" alt="" title="" href="https://www.linkedin.com/in/armaan-midha/" coords="69,82,90,101" shape="rect"></area>
@@ -136,7 +128,7 @@ function Connect() {
         <div id="portfolio-connect-with-me">
             <h1>Connect with me</h1>
             <p>By clicking on the corresponding icon</p>
-            {getImageMap()}
+            <div className="connect-image">{getImageMap()}</div>
         </div>
     );
 }

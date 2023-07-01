@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../../Resources/Images/dic6.PNG";
+import profileImage from "../../Resources/Images/photo.JPG";
 import "./styles/Hamburger.css";
 import { Link } from "react-router-dom";
 import { MenuFoldOutlined, MenuOutlined, CloseCircleOutlined, CloseOutlined } from "@ant-design/icons";
